@@ -1,0 +1,77 @@
+
+body{
+  font-family : Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button{
+  background-color : #A84B3650;
+  border : dotted 2px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+article{
+  background-color : #F0F5EB;
+  border : 1px solid black;
+  border-radius : 50px;
+  padding : 8px;
+  margin : 5px;
+}
+
+h1{
+  color : #A84B36;
+  text-align : center;
+  border : 2px dotted black;
+  border-radius : 70px;
+}
+
+h2{
+  color : #1C362C;
+  border-style : 1px solid black;
+}
+
+img{
+  float : right;
+  border : 1px solid black;
+  border-radius : 4px;
+  padding : 4px;
+  margin : 10px;
+}
+
+p {
+  color : #3D7561;
+}
+
+ul {
+  color : #3D7561;
+}
+
+ol {
+  color : #3D7561;
+}
+
+/* ------------------- was trying to move checkmark back to list item below, didn't work. revisit. */
+ul li#check {
+  list-style-type : none;
+  list-style-position : outside; 
+}
+/* ----------------------------------------------------------------------------------------------- */
+
+ul li#check:before {
+  content: '✓ ';
+}
+
+a:link {
+  text-decoration : none;
+  font-weight : bold;
+  font-style : italic;
+  color : #1C362C;
+}
+
+a:visited {
+  color : #3D7561;
+}
+
+a:hover {
+  text-decoration : underline;
+}
